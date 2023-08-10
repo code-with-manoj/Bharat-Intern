@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding:3%;
+}
+
+.logo{
+    color: white;
+}
+.logo span{
+    color: red;
+}
+
+.topnav{    float: right;
+}
+.topnav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.topnav a:hover{
+    color: rgb(0, 162, 255);
+}
+
+.home{
+    padding: 15%;
+}
+
+.home span{
+    font-size: 40px;
+    color: red;
+}
+
+.home p{
+    padding-bottom: 15px;
+}
+.home button{
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.home img{
+    width: 40%;
+    float: right;
+    border-radius: 50%;
+}
+.about {
+    margin: 10%;
+}
+.about h1{
+    text-align: center;
+    padding: 20px;
+}
+.about p{
+    font-size: 20px;
+    /* text-indent: 80px; */
+    text-align:justify;
+}
+.about button{
+    background-color: aqua;
+    color: blue;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Services Page */
+
+.services {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* margin: 10rem; */
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-details {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.card:hover {
+    margin: 20px;
+    padding: 22px;
+    background-color: rgba(63, 211, 252, 0.733);
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+.card img {
+    width: 60px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* resume */
+.resume-contaier h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(163, 163, 163, 0.598);
+}
+
+.sum p{
+    text-indent: 80px;
+}
+.resume h2{
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    text-indent: 60px;
+    background-color: skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info li{
+margin-left: 100px;
+}
+
+.info button{
+    margin-top: 20px;
+}
+
+/* Contact Me Page */
+
+.contact {
+    color: rgb(255, 0, 0);
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.info h1 {
+    /* text-align: center; */
+    padding: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icons:hover {
+    box-shadow: 5px 5px 5px white;
+}
+
+.icons h3{
+    padding-top: 10px;
+}
+
+.icons p {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+/* Form Section  */
+
+form {
+    width: 50%;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    text-align: center;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+form:hover {
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid rgb(0, 0, 0); */
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+}
+
+input {
+    padding: 5px;
+    width: 29%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 10px;
+    width: 65%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Footer  */
+
+footer {
+    text-align: center;
+    padding: 5px;
+    color: rgb(238, 2, 2);
+}
+
+/* End of portfolio website */
